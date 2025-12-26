@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>متجر العبايات</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000000; /* خلفية سوداء */
+            margin: 0;
+            padding: 0;
+            direction: rtl;
+            color: #ffffff;
+        }
+        header {
+            background-color: rgba(75,44,32,0.9);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .product {
+            background: rgba(255,255,255,0.1);
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+        }
+        .product img {
+            width: 100%;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .price {
+            color: #ffd700;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        footer {
+            background-color: rgba(255,255,255,0.1);
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>متجر العبايات</h1>
+    <p>أناقة • فخامة • تميز</p>
+</header>
+
+<section class="products">
+
+    <!-- عبايات سوداء كلاسيكية -->
+    <div class="product">
+        <a href="https://wa.me/249912345678?text=السلام%20عليكم%20أرغب%20في%20طلب%20هذه%20العباية" target="_blank">
+            <img src="https://cdn.pixabay.com/photo/2022/03/02/08/09/woman-7045226_1280.jpg" alt="عباية سوداء 1">
+        </a>
+        <h3>عباية سوداء كلاسيك</h3>
+        <p class="price">120 ريال</p>
+    </div>
+
+    <div class="product">
+        <a href="https://wa.me/249912345678?text=السلام%20عليكم%20أرغب%20في%20طلب%20هذه%20العباية" target="_blank">
+            <img src="https://cdn.pixabay.com/photo/2019/12/23/14/19/woman-4718677_1280.jpg" alt="عباية سوداء 2">
+        </a>
+        <h3>عباية سوداء أنيقة</h3>
+        <p class="price">130 ريال</p>
+    </div>
+
+    <!-- عبايات ملونة -->
+    <div class="product">
+        <a href="https://wa.me/249912345678?text=السلام%20عليكم%20أرغب%20في%20طلب%20هذه%20العباية" target="_blank">
+            <img src="https://cdn.pixabay.com/photo/2017/03/29/01/06/asia-2188050_1280.jpg" alt="عباية ملونة 1">
+        </a>
+        <h3>عباية ملونة وعصرية</h3>
+        <p class="price">150 ريال</p>
+    </div>
+
+    <div class="product">
+        <a href="https://wa.me/249912345678?text=السلام%20عليكم%20أرغب%20في%20طلب%20هذه%20العباية" target="_blank">
+            <img src="https://cdn.pixabay.com/photo/2020/02/18/21/08/woman-4861061_1280.jpg" alt="عباية ملونة 2">
+        </a>
+        <h3>عباية ملونة فاخرة</h3>
+        <p class="price">160 ريال</p>
+    </div>
+
+    <!-- صور متنوعة -->
+    <div class="product">
+        <a href="https://wa.me/249912345678?text=السلام%20عليكم%20أرغب%20في%20طلب%20هذه%20العباية" target="_blank">
+            <img src="https://cdn.pixabay.com/photo/2017/07/31/11/41/woman-2554908_1280.jpg" alt="عباية متنوعة 1">
+        </a>
+        <h3>عباية متنوعة 1</h3>
+        <p class="price">140 ريال</p>
+    </div>
+
+    <div class="product">
+        <a href="https://wa.me/249912345678?text=السلام%20عليكم%20أرغب%20في%20طلب%20هذه%20العباية" target="_blank">
+            <img src="https://cdn.pixabay.com/photo/2020/11/09/10/40/woman-5724847_1280.jpg" alt="عباية متنوعة 2">
+        </a>
+        <h3>عباية متنوعة
